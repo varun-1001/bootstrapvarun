@@ -1,0 +1,619 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    max-width: 1398px !important;
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+
+}
+
+#logo {
+
+    max-width: 180px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+/* navbar-section-open */
+
+h1 {
+
+    font-size: 54px !important;
+    margin-top: 48px !important;
+
+}
+
+.header-section {
+
+    position: relative;
+
+}
+
+section img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+img {
+
+    max-width: 100%;
+
+}
+
+.navbar-logo {
+
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+    top: -40px;
+
+}
+
+.offcanvas {
+
+    flex-direction: row !important;
+    align-items: center;
+
+}
+
+/* bannner-section-open */
+
+
+.banner {
+    /* height: 100vh; */
+    background: url(../image/there-is-man-walking-sand-dune-desert-generative-ai_56221099.htm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.banner-image img {
+
+    height: 400px;
+    border: 7px solid rgb(223, 217, 217);
+    border-radius: 40px;
+    width: 80%;
+    margin-top: 56px;
+
+}
+
+.text-secondary {
+
+    font-size: 13px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.banner-heading {
+
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 22px;
+
+}
+
+.text-secondary {
+
+    margin-bottom: 30px;
+
+}
+
+.com-gap {
+
+    padding: 100px 0px;
+
+}
+
+/* banner-close */
+
+
+/* about-section-open */
+
+.about-heading {
+
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 40PX;
+
+}
+
+.right-img img {
+
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    margin-bottom: 72px;
+
+}
+
+.left-image img {
+
+    border: 2px solid skyblue;
+    border-radius: 20px;
+
+
+}
+
+.about-child {
+
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.about-pera {
+
+    text-align: start;
+    margin-bottom: 77px;
+
+}
+
+.about-btn {
+
+    background-color: #AA6AAA !important;
+    border: #AA6AAA !important;
+
+}
+
+.about-pera {
+
+    padding: 0px 40px 0px 42px;
+
+}
+
+
+/* about-section-close */
+
+
+/* card-section-open */
+
+.card-section-open {
+
+    background-color: #ede8f0;
+
+}
+
+h2 {
+
+    font-size: 50px;
+    font-weight: 200;
+
+}
+
+
+.card-color {
+
+    background-color: #AA6AAA !important;
+
+}
+
+.card-color-two {
+
+    background-color: #EAE4EA !important;
+
+}
+
+.card-btn {
+
+    padding: 0px !important;
+
+}
+
+/* card-section-close */
+
+/* testo-section-open */
+
+
+.carousel-item img {
+    height: 10%;
+    width: 10%;
+    padding: 5px 5px;
+}
+
+
+/* testo-section-close */
+
+/* touch-section-open */
+
+.text-body {
+
+    background-color: #8A737D;
+    margin: 0px 250px;
+    align-items: center;
+    padding: 0px 20px;
+    transform: translate(0px, -60px);
+    border-radius: 10px;
+
+}
+
+.touch-pera {
+
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.touch-image {
+
+
+    height: 40px;
+    transform: translate(43px, 0px);
+
+
+}
+
+/* touch-section-close */
+
+.footer-logo img{
+
+    max-width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* banner */
+    .offcanvas {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .banner-heading {
+
+        font-size: 27px;
+        margin: 30px 0px 15px 10px;
+
+
+    }
+
+    h1 {
+
+        font-size: 20px !important;
+
+    }
+
+    .banner-pera {
+
+        font-size: 10px;
+        padding: 0px;
+        margin-bottom: 15px;
+        padding: 0px 10px 0px 10px;
+
+    }
+
+    .banner-image img {
+
+        height: 160px;
+        margin-top: 10px;
+
+    }
+
+    #logo {
+
+        max-width: 120px;
+        left: 0px;
+
+    }
+
+    .navbar-logo {
+
+        position: absolute;
+        left: 20px;
+        z-index: 2;
+        top: -20px;
+
+    }
+
+    /* about-section-open */
+
+
+    .about-heading {
+
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 200;
+        margin-bottom: 10PX;
+
+
+    }
+
+
+    .about-child {
+
+        padding: 50px 0px 0px 0px;
+
+    }
+
+    .left-image img {
+
+        margin-bottom: 15px;
+
+    }
+
+    .about-pera {
+
+        font-size: 10px !important;
+        padding: 0 10px 0px 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .right-img img {
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* navbar */
+    .offcanvas {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .banner-heading {
+
+        font-size: 30px;
+        margin: 30px 0px 15px 10px;
+
+
+    }
+
+    .banner-pera {
+
+        font-size: 10px;
+        padding: 0px;
+        margin-bottom: 15px;
+        padding: 0px 40px 0px 40px;
+
+    }
+
+    .banner-image img {
+
+        height: 140px;
+        margin-top: 10px;
+
+
+    }
+
+    #logo {
+
+        max-width: 120px;
+        left: 0px;
+
+    }
+
+    .navbar-logo {
+
+        position: absolute;
+        left: 20px;
+        z-index: 2;
+        top: -20px;
+
+    }
+
+    /* about-section-open */
+
+
+
+    .about-heading {
+
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 200;
+        margin-bottom: 30PX;
+
+
+
+    }
+
+
+    .about-child {
+
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .left-image img {
+
+        margin-bottom: 15px;
+
+    }
+
+    .about-pera {
+
+        font-size: 15px !important;
+        padding: 0 10px 0px 10px;
+        margin-bottom: 15px;
+
+    }
+
+    .right-img img {
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+    /* about-section-close */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /* nav-bar */
+
+    .banner-heading {
+
+        font-size: 33px;
+        margin: 80px 0px 15px 10px;
+        padding-top: 10px;
+
+    }
+
+    .banner-pera {
+
+        font-size: 12px;
+        padding: 0px;
+        margin-bottom: 15px;
+        padding: 0px 40px 0px 10px;
+
+    }
+
+    .banner-image img {
+
+        height: 140px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+
+    }
+
+
+
+    #logo {
+
+        max-width: 140px;
+        left: 0px;
+
+    }
+
+    .navbar-logo {
+
+        position: absolute;
+        left: 20px;
+        z-index: 2;
+        top: -20px;
+
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* nav-bar */
+
+    .banner-heading {
+
+        font-size: 33px;
+        margin: 80px 0px 15px 10px;
+        padding-top: 10px;
+
+    }
+
+    .banner-pera {
+
+        font-size: 12px;
+        padding: 0px;
+        margin-bottom: 15px;
+        padding: 0px 40px 0px 10px;
+
+    }
+
+    .banner-image img {
+
+        height: 140px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+
+    }
+
+
+
+    #logo {
+
+        max-width: 140px;
+        left: 0px;
+
+    }
+
+    .navbar-logo {
+
+        position: absolute;
+        left: 20px;
+        z-index: 2;
+        top: -20px;
+
+    }
+
+
+
+
+}
+
+/* over */
