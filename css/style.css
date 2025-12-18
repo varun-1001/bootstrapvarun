@@ -69,6 +69,78 @@ img {
 
 }
 
+.navbar-toggler {
+
+    box-shadow: none !important;
+    border: none !important;
+    position: relative;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-toggler.active .navbar-toggler-icon {
+
+
+    opacity: 0;
+    transform: translateX(-100%);
+
+}
+
+
+.navbar-toggler::after {
+
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.5s linear all;
+
+}
+
+.navbar-toggler.active::before {
+
+    transform: rotate(45deg) translateX(11px);
+
+}
+
+.navbar-toggler.active::after {
+
+    transform: rotate(-45deg) translateX(11px);
+
+}
+
+
+.navbar-toggler::before {
+
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    top: -5px;
+    transition: 0.5s linear all;
+
+
+
+
+}
+
+.navbar-toggler-icon {
+
+    background-image: none !important;
+    height: 3px !important;
+    width: 30px;
+    background-color: black;
+    transition: 0.5s linear;
+
+
+}
+
 /* bannner-section-open */
 
 
@@ -307,7 +379,7 @@ h2 {
 
         height: 160px;
         margin-top: 10px;
-        
+
 
     }
 
@@ -391,15 +463,15 @@ h2 {
 
     /* touch-section-open */
 
-    .touch-pera{
+    .touch-pera {
 
         font-size: 15px;
 
     }
 
-    .text-body{
+    .text-body {
 
-max-width: 100%;
+        max-width: 100%;
 
     }
 
